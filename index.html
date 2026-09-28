@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>tw-asset-tracker</title>
+<style>
+  :root { --bg: #fcfcfb; --text: #0b0b0b; --muted: #52514e; --link: #2a78d6; --line: #e1e0d9; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1a1a19; --text: #ffffff; --muted: #c3c2b7; --link: #3987e5; --line: #2c2c2a; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.7 system-ui, -apple-system, "Segoe UI", "Microsoft JhengHei", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  .lead { color: var(--muted); margin: 0 0 32px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; }
+  a { color: var(--link); }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>tw-asset-tracker</h1>
+  <p class="lead">個人資產統計工具（個人自用）</p>
+
+  <h2>這是什麼</h2>
+  <p>在使用者本人的電腦上執行的小程式：以唯讀權限讀取本人 Gmail 中銀行、券商寄來的電子對帳單，
+     在本機整理成資產、持倉損益與記帳紀錄。</p>
+  <p>本程式不對外提供服務，只供開發者本人使用，不收集任何其他人的資料。</p>
+
+  <h2>隱私權</h2>
+  <p>資料如何被存取與保存，請見 <a href="privacy.html">隱私權政策</a>。</p>
+
+  <hr>
+
+  <h2>About</h2>
+  <p>tw-asset-tracker is a personal tool that runs on its developer's own computer. It reads bank and brokerage
+     e-statements from the developer's own Gmail with read-only access and organizes them locally into asset
+     and bookkeeping records. It is not offered as a service to anyone else.
+     See the <a href="privacy.html">Privacy Policy</a>.</p>
+</main>
+</body>
+</html>

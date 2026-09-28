@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隱私權政策｜tw-asset-tracker</title>
+<style>
+  :root { --bg: #fcfcfb; --text: #0b0b0b; --muted: #52514e; --link: #2a78d6; --line: #e1e0d9; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1a1a19; --text: #ffffff; --muted: #c3c2b7; --link: #3987e5; --line: #2c2c2a; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.7 system-ui, -apple-system, "Segoe UI", "Microsoft JhengHei", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  .lead { color: var(--muted); margin: 0 0 32px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; }
+  ol, ul { padding-left: 1.4em; }
+  code { font-size: 14px; overflow-wrap: anywhere; }
+  a { color: var(--link); overflow-wrap: anywhere; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>隱私權政策</h1>
+  <p class="lead">tw-asset-tracker ・ 最後更新：2026 年 9 月 28 日</p>
+
+  <h2>1. 適用範圍</h2>
+  <p>tw-asset-tracker（以下稱「本程式」）是在使用者本人電腦上執行的個人自用程式，只供開發者本人使用，
+     不對外提供服務。</p>
+
+  <h2>2. 存取的資料</h2>
+  <p>本程式透過 Google OAuth 取得 Gmail <strong>唯讀</strong>權限
+     （<code>https://www.googleapis.com/auth/gmail.readonly</code>），
+     只搜尋並讀取特定銀行、券商、投信寄送的電子對帳單與通知信件，以及其 PDF 附件。</p>
+
+  <h2>3. 使用方式</h2>
+  <ul>
+    <li>對帳單附件下載到使用者本人的電腦，在本機解析成帳戶餘額、持倉與交易紀錄。</li>
+    <li>本程式不會修改、刪除或寄出任何郵件。</li>
+    <li>取得的資料只用於使用者本人的資產統計與記帳，不作其他用途。</li>
+  </ul>
+
+  <h2>4. 資料儲存</h2>
+  <p>所有資料（包含對帳單檔案、解析結果、授權憑證）都存放在使用者本人的電腦，
+     不會上傳到任何伺服器或第三方服務。</p>
+
+  <h2>5. 資料分享</h2>
+  <p>本程式不會將任何資料分享、出售或轉讓給任何第三方。</p>
+
+  <h2>6. 撤銷存取與刪除資料</h2>
+  <p>使用者可隨時在 Google 帳戶的
+     <a href="https://myaccount.google.com/connections">第三方應用程式與服務</a> 移除本程式的存取權，
+     並刪除電腦上的資料資料夾，即完全移除本程式取得的資料。</p>
+
+  <h2>7. Google API 服務使用者資料政策</h2>
+  <p>本程式對 Google API 所取得資訊的使用與傳輸，遵守
+     <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>，
+     包含其中的 Limited Use（有限使用）規範。</p>
+
+  <h2>8. 聯絡方式</h2>
+  <p>如有疑問，請透過本網站所屬的 GitHub 帳號聯絡。</p>
+
+  <hr>
+
+  <h1>Privacy Policy</h1>
+  <p class="lead">tw-asset-tracker ・ Last updated: September 28, 2026</p>
+  <ol>
+    <li>tw-asset-tracker ("the app") is a personal tool that runs on its developer's own computer and is used
+        only by the developer. It is not offered as a service to anyone else.</li>
+    <li>The app requests <strong>read-only</strong> Gmail access
+        (<code>https://www.googleapis.com/auth/gmail.readonly</code>) and only searches for and reads e-statements
+        and notices sent by specific banks, brokerages and fund companies, including their PDF attachments.</li>
+    <li>Attachments are downloaded to the user's own computer and parsed locally into balances, holdings and
+        transactions. The app never modifies, deletes or sends email, and uses the data only for the user's own
+        asset tracking and bookkeeping.</li>
+    <li>All data, including statement files, parsed results and authorization tokens, is stored only on the
+        user's own computer and is never uploaded to any server or third-party service.</li>
+    <li>The app does not share, sell or transfer any data to third parties.</li>
+    <li>Access can be revoked at any time from the Google Account
+        <a href="https://myaccount.google.com/connections">third-party apps &amp; services</a> page; deleting the
+        local data folder removes all data the app obtained.</li>
+    <li>tw-asset-tracker's use and transfer of information received from Google APIs will adhere to the
+        <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data
+        Policy</a>, including the Limited Use requirements.</li>
+    <li>For questions, please contact the GitHub account that owns this site.</li>
+  </ol>
+</main>
+</body>
+</html>
